@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work Opportunities in Japan</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <h1>Work Opportunities in Japan</h1>
+    <div class="container_nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#job-listings">Job Listings</a></li>
+        <li><a href="#about-japan">About Japan</a></li>
+        <li><a href="#living-in-japan">Living in Japan</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div id="language-switcher">
+        <button onclick="switchToEnglish()">English</button>
+        <button onclick="switchToJapanese()">日本語</button>
+      </div>
+      <script>
+      function switchToEnglish() {
+        window.location.href = "index.html";
+      }
+      function switchToJapanese() {
+        window.location.href = "index_ja.html";
+      }
+      </script>
+    </div>
+  </nav>
+   <!-- Home Section -->
+    <div id="home" class="home-section">
+        <h1>Join Japan's Workforce And Be Part Of A Culture That Values Dedication And Excellence</h1>
+        <p>Explore exciting job opportunities in Japan.</p>
+    </div>
+          <!-- button Section -->
+        <div class="all_btn">
+    <div class = "jap_btn">
+      <button onclick="toggleJobListing()" class="japan_btn1">View Job Opportunities</button>
+    <button onclick="toggleAboutJapan()" class="japan_btn2">About Japan</button>
+     <button onclick="toggleCulture()" class="japan_btn3">Culture</button>
+     <button onclick="toggleTouristPlaces()" class="japan_btn4">Tourist Places</button>
+    </div>
+      <div class="jobsearch_img">
+        <img src="japanOpp_img2.png" alt="Explore job opportunities in Japan">
+    </div>
+    <div class="jobsearch_img2">
+      <img src="japanOpp_img.png" alt="Explore job opportunities in Japan">
+  </div>
+</div>
+<!-- Job listing-->
+<section id="job-listing" style="display:none;" >
+  <div class="container joblist_class">
+    <div class=" container container_japan">
+      <h2>Job Listing</h2>
+      <h3>Frontend Developer</h3>
+      <p>Location: Tokyo</p>
+      <p>Company: XYZ Tech</p>
+      <p>Description: We are seeking a talented Frontend Developer to join our team in Tokyo. The ideal candidate should have experience with HTML, CSS, and JavaScript, and be passionate about creating user-friendly web interfaces.</p>
+      <p>Requirements:</p>
+      <ul>
+        <li>Proficiency in HTML, CSS, and JavaScript</li>
+        <li>Experience with frontend frameworks such as React or Vue.js</li>
+        <li>Strong problem-solving skills</li>
+      </ul>
+      <p>Salary: Competitive</p>
+      <p>Contact: hr@xyztech.com</p>
+    </div>
+    <div class="container container_japan">
+      <h3>Frontend Developer</h3>
+      <p>Location: Tokyo</p>
+      <p>Company: ABC Web Solutions</p>
+      <p>Description: Seeking a talented Frontend Developer to join our team in Tokyo. Must have strong skills in HTML, CSS, and JavaScript.</p>
+      <p>Requirements:</p>
+      <ul>
+        <li>Proficiency in HTML, CSS, and JavaScript</li>
+        <li>Experience with frontend frameworks such as React or Vue.js</li>
+        <li>Strong problem-solving skills</li>
+      </ul>
+      <p>Salary: Competitive</p>
+      <p>Contact: hr@abcwebsolutions.com</p>
+    </div>
+    <div class="container container_japan">
+      <h3>Full Stack Developer</h3>
+      <p>Location: Osaka</p>
+      <p>Company: XYZ Tech Solutions</p>
+      <p>Description: We are looking for a Full Stack Developer to join our team in Osaka. Must have experience with both frontend and backend technologies.</p>
+      <p>Requirements:</p>
+      <ul>
+        <li>Proficiency in HTML, CSS, JavaScript, and a backend language such as Python or Node.js</li>
+        <li>Experience with databases such as MySQL or MongoDB</li>
+        <li>Ability to work in a team environment</li>
+      </ul>
+      <p>Salary: Competitive</p>
+      <p>Contact: hr@xyztechsolutions.com</p>
+    </div>
+  </div>
+</section>
+  <!-- About Japan Section -->
+  <section id="about-japan" style="display:none;">
+    <div class=" container container_japan">
+      <h2>About Japan</h2>
+      <p>Japan is an island nation in East Asia, known for its unique blend of tradition and modernity. With its stunning natural landscapes, delicious cuisine, advanced technology, and rich cultural heritage, Japan offers a fascinating experience for visitors and residents alike.</p>
+    </div>
+  </section>
+<!-- Culture Section -->
+<section id="culture" style="display:none;">
+  <div class="container container_japan">
+    <h2>Culture</h2>
+    <p>Japan's culture is rich and diverse, encompassing traditional arts, customs, and festivals. From tea ceremonies to cherry blossom viewing, Japanese culture offers a unique experience for those who explore it.</p>
+  </div>
+</section>
+  <!-- Tourist Section -->
+  <section id="tourist-places" style="display:none;">
+    <div class="container container_japan">
+      <h2>Tourist Places</h2>
+      <p>Japan is home to numerous breathtaking tourist attractions. Here are some popular ones:</p>
+      <ul>
+        <li>Mt. Fuji: A majestic mountain and UNESCO World Heritage site.</li>
+        <li>Kyoto: Known for its historic temples, traditional wooden houses, and beautiful gardens.</li>
+        <li>Tokyo Disneyland: A magical theme park offering entertainment for all ages.</li>
+        <li>Hiroshima Peace Memorial Park: Commemorating the victims of the atomic bombing.</li>
+        <li>Nara Park: Famous for its friendly deer and historic temples.</li>
+        <li>Hakone: A scenic hot spring resort town with views of Mt. Fuji.</li>
+        <li>Okinawa Islands: Known for their stunning beaches, coral reefs, and rich marine life.</li>
+        <li>Nikko: Home to ornate shrines and temples nestled in a beautiful natural setting.</li>
+        <li>Kamakura: A coastal city known for its giant Buddha statue and historic temples.</li>
+        <li>Sapporo: Famous for its beer, snow festival, and outdoor activities.</li>
+      </ul>
+    </div>
+  </section>
+<!-- Sliding Image Section -->
+<section id="sliding-image-carousel">
+  <div class="container_slideimg">
+    <div class="carousel">
+      <div class="slides">
+        <div class="slide" style="background-image: url('dream-job-2904780_1280.png');"></div>
+        <!-- Add more slides as needed -->
+      </div>
+      <button class="prev slide_button" onclick="prevSlide()">&#10094;</button>
+      <button class="next slide_button" onclick="nextSlide()">&#10095;</button>
+    </div>
+  </div>
+</section>
+   <!-- Footer Section -->
+   <div class="footer_div">
+   <footer class = "footer_nav">
+    <div class="container_1">
+        <div class="footer-logo">Work Opportunities in Japan</div>
+        <div class="contact-info">
+            <p class = "contact_1">Contact Us:1234569870</p>
+            <p class = "contact_2">Email: info@workinjapan.com</p>
+            <p class = "contact_3">Phone: 12345678390</p>
+        </div>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2024 Work Opportunities in Japan. All rights reserved.</p>
+    </div>
+</footer>
+</div>
+  <!-- Language Switcher -->
+  <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>日本での仕事の機会</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <h1>日本での仕事の機会</h1>
+    <div class="container_nav">
+      <ul>
+        <li><a href="#home">ホーム</a></li>
+        <li><a href="#job-listings">求人情報</a></li>
+        <li><a href="#about-japan">日本について</a></li>
+        <li><a href="#living-in-japan">日本での生活</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+      <div id="language-switcher">
+        <button onclick="switchToEnglish()">English</button>
+        <button onclick="switchToJapanese()">日本語</button>
+      </div>
+      <script>
+      function switchToEnglish() {
+        window.location.href = "index.html";
+      }
+      function switchToJapanese() {
+        window.location.href = "index_ja.html";
+      }
+      </script>
+    </div>
+  </nav>
+   <!-- Home Section -->
+    <div id="home" class="home-section">
+        <h1>日本の労働力に参加し、献身と卓越性を重視する文化の一部になろう</h1>
+        <p>日本でのエキサイティングな仕事の機会を探求する。</p>
+    </div>
+          <!-- button Section -->
+        <div class="all_btn">
+    <div class = "jap_btn">
+      <button onclick="toggleJobListing()" class="japan_btn1">求人情報を表示</button>
+    <button onclick="toggleAboutJapan()" class="japan_btn2">日本について</button>
+     <button onclick="toggleCulture()" class="japan_btn3">文化</button>
+     <button onclick="toggleTouristPlaces()" class="japan_btn4">観光地</button>
+    </div>
+      <div class="jobsearch_img">
+        <img src="japanOpp_img2.png" alt="日本での仕事の機会を探求する">
+    </div>
+    <div class="jobsearch_img2">
+      <img src="japanOpp_img.png" alt="日本での仕事の機会を探求する">
+  </div>
+</div>
+<!-- Job listing-->
+<section id="job-listing" style="display:none;" >
+  <div class="container joblist_class">
+    <div class=" container container_japan">
+      <h2>求人情報</h2>
+      <h3>フロントエンド開発者</h3>
+      <p>場所：東京</p>
+      <p>会社：XYZテック</p>
+      <p>説明：私たちは東京のチームに才能あるフロントエンド開発者を募集しています。理想的な候補者は、HTML、CSS、JavaScriptの経験があり、ユーザーフレンドリーなWebインターフェースを作成することに情熱を持っています。</p>
+      <p>要件：</p>
+      <ul>
+        <li>HTML、CSS、JavaScriptの習熟度</li>
+        <li>ReactまたはVue.jsなどのフロントエンドフレームワークの経験</li>
+        <li>優れた問題解決能力</li>
+      </ul>
+      <p>給与：競争力のある</p>
+      <p>連絡先：hr@xyztech.com</p>
+    </div>
+    <div class="container container_japan">
+      <h3>フロントエンド開発者</h3>
+      <p>場所：東京</p>
+      <p>会社：ABC Web Solutions</p>
+      <p>説明：東京のチームに才能あるフロントエンド開発者を募集しています。HTML、CSS、JavaScriptのスキルが必要です。</p>
+      <p>要件：</p>
+      <ul>
+        <li>HTML、CSS、JavaScriptの習熟度</li>
+        <li>ReactまたはVue.jsなどのフロントエンドフレームワークの経験</li>
+        <li>優れた問題解決能力</li>
+      </ul>
+      <p>給与：競争力のある</p>
+      <p>連絡先：hr@abcwebsolutions.com</p>
+    </div>
+    <div class="container container_japan">
+      <h3>フルスタック開発者</h3>
+      <p>場所：大阪</p>
+      <p>会社：XYZテックソリューションズ</p>
+      <p>説明：大阪のチームにフルスタック開発者を募集しています。フロントエンドとバックエンドの両方の技術に経験が必要です。</p>
+      <p>要件：</p>
+      <ul>
+        <li>HTML、CSS、JavaScript、PythonまたはNode.jsなどのバックエンド言語の習熟度</li>
+        <li>MySQLまたはMongoDBなどのデータベースの経験</li>
+        <li>チーム環境での作業能力</li>
+      </ul>
+      <p>給与：競争力のある</p>
+      <p>連絡先：hr@xyztechsolutions.com</p>
+    </div>
+  </div>
+</section>
+  <!-- About Japan Section -->
+  <section id="about-japan" style="display:none;">
+    <div class=" container container_japan">
+      <h2>日本について</h2>
+      <p>日本は東アジアの島国で、伝統と現代性のユニークな融合で知られています。息を呑むような自然景観、美味しい料理、先進技術、豊かな文化遺産を持つ日本は、訪問者や住民にとって魅力的な体験を提供します。</p>
+    </div>
+  </section>
+<!-- Culture Section -->
+<section id="culture" style="display:none;">
+  <div class="container container_japan">
+    <h2>文化</h2>
+    <p>日本の文化は豊かで多様であり、伝統的な芸術、慣習、祭りを含んでいます。茶道から桜の鑑賞まで、日本の文化はそれを探求する人々にユニークな体験を提供します。</p>
+  </div>
+</section>
+  <!-- Tourist Section -->
+  <section id="tourist-places" style="display:none;">
+    <div class="container container_japan">
+      <h2>観光地</h2>
+      <p>日本には数多くの息を呑むような観光名所があります。ここにいくつか人気のあるものを紹介します：</p>
+      <ul>
+        <li>富士山：雄大な山とユネスコの世界遺産。</li>
+        <li>京都：歴史的な寺院、伝統的な木造家屋、美しい庭園で知られています。</li>
+        <li>東京ディズニーランド：すべての年齢層にエンターテイメントを提供するマジカルなテーマパーク。</li>
+        <li>広島平和記念公園：原爆の被害者を追悼する。</li>
+        <li>奈良公園：親しみやすい鹿と歴史的な寺院で有名。</li>
+        <li>箱根：富士山の眺望が広がる景色の美しい温泉リゾート地。</li>
+        <li>沖縄諸島：息を呑むほど美しいビーチ、サンゴ礁、豊かな海洋生物があります。</li>
+        <li>日光：美しい自然環境に囲まれた装飾的な神社や寺院があります。</li>
+        <li>鎌倉：巨大な仏像や歴史的な寺院で知られる海岸の町。</li>
+        <li>札幌：ビール、雪まつり、屋外活動で有名な都市。</li>
+      </ul>
+    </div>
+  </section>
+<!-- Sliding Image Section -->
+<section id="sliding-image-carousel">
+  <div class="container_slideimg">
+    <div class="carousel">
+      <div class="slides">
+        <div class="slide" style="background-image: url('dream-job-2904780_1280.png');"></div>
+        <!-- Add more slides as needed -->
+      </div>
+      <button class="prev slide_button" onclick="prevSlide()">&#10094;</button>
+      <button class="next slide_button" onclick="nextSlide()">&#10095;</button>
+    </div>
+  </div>
+</section>
+   <!-- Footer Section -->
+   <div class="footer_div">
+   <footer class = "footer_nav">
+    <div class="container_1">
+        <div class="footer-logo">日本での仕事の機会</div>
+        <div class="contact-info">
+            <p class = "contact_1">お問い合わせ先：1234569870</p>
+            <p class = "contact_2">Eメール：info@workinjapan.com</p>
+            <p class = "contact_3">電話：12345678390</p>
+        </div>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2024 日本での仕事の機会。全著作権所有。</p>
+    </div>
+</footer>
+</div>
+  <!-- Language Switcher -->
+  <script src="script.js"></script>
+</body>
+</html>

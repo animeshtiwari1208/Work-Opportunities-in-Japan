@@ -1,0 +1,336 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container_nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Navigation Styles */
+nav button {
+  padding: 3px;
+  border-radius: 7px;
+  background-color: white;
+  color: black;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: blueviolet;
+  color: white;
+  border-color: white;
+}
+
+nav h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+nav {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  text-decoration: underline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Section Styles */
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bolder;
+}
+
+/* Language Switcher Styles */
+nav ul li button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Home Section Styles */
+.home-section {
+  background-color: lightgray;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.home-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.home-section p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: white;
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+.footer_div {
+  background-color: lightcyan;
+}
+
+footer {
+  color: black;
+  padding: 40px 0;
+  margin-left: 70px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.social-links a {
+  color: black;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+.footer_nav .container_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.container_1 .contact_1 {
+  margin-right: 90px;
+}
+
+.container_1 .contact_3 {
+  margin-right: 110px;
+}
+
+.container_1 .contact_2 {
+  margin-right: 40px;
+}
+
+.jap_btn button {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: #fff;
+  border-color: transparent;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.jap_btn button:hover {
+  background-color: white;
+  color: black;
+  border-color: blueviolet;
+}
+
+.jap_btn {
+  margin-left: 70px;
+}
+
+#sliding-image-carousel {
+  padding: 50px 0;
+}
+
+.container_slideimg {
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 300px; /* Adjust height as needed */
+  background-size: contain;
+  background-position: center;
+  transition: transform 0.5s ease;
+}
+
+.slide_button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+.jobsearch_img {
+  width: 100px;
+  height: 50px;
+}
+
+.all_btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all_btn .jobsearch_img img {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.all_btn .jobsearch_img2 img {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.container_japan {
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  background-color: lightblue;
+}
+
+.container_japan h2 {
+  font-weight: 900;
+}
+
+/* Responsive Styles */
+
+/* Adjust navigation for smaller screens */
+@media screen and (max-width: 768px) {
+  nav h1 {
+      font-size: 24px;
+  }
+  nav ul li {
+      margin-right: 10px;
+  }
+}
+
+/* Make buttons responsive */
+@media screen and (max-width: 768px) {
+  .all_btn .jap_btn button {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+}
+
+/* Adjust job listing container for smaller screens */
+@media screen and (max-width: 768px) {
+  .container.container_japan {
+      padding: 20px;
+      margin-bottom: 20px;
+  }
+}
+
+/* Make footer responsive */
+@media screen and (max-width: 768px) {
+  .footer_nav .container_1 {
+      flex-direction: column;
+      align-items: center;
+  }
+  .contact-info p {
+      margin-bottom: 5px;
+  }
+}
+
